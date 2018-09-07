@@ -1,0 +1,21 @@
+<mat-checkbox>Seleccionar Heroes</mat-checkbox>
+
+<button mat-button [matMenuTriggerFor]="menu">Heroes</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Iro-Man</button>
+  <button mat-menu-item>Captain America</button>
+  <button mat-menu-item>Deadpool</button>
+</mat-menu>
+
+
+<mat-checkbox>Seleccionar poderes</mat-checkbox>
+
+<button mat-button [matMenuTriggerFor]="menu2">Poderes</button>
+<mat-menu #menu2="matMenu">
+  <button mat-menu-item>volar</button>
+  <button mat-menu-item>Fuerza</button>
+  <button mat-menu-item>Velocidad</button>
+  <button mat-menu-item>Invisible</button>
+</mat-menu>
+
+<mat-slide-toggle>Activar</mat-slide-toggle>
